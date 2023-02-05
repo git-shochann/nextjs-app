@@ -11,7 +11,12 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <head></head>
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          />
+        </Head>
         {/* プロパティが{}内 */}
         <Component {...pageProps}> </Component>
       </>

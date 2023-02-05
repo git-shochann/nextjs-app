@@ -19,10 +19,27 @@ const Layout = (props) => {
         />
       </Head>
       <header>
+        <style jsx>
+          {`
+            a {
+              color: white;
+            }
+          `}
+        </style>
         <Nav className="navber navber-dark bg-dark">
           <NavItem>
             <Link href="/">
               <a className="navbar-brand">ホーム</a>
+            </Link>
+          </NavItem>
+          <NavItem className="ml-auto">
+            <Link href="/login">
+              <a className="nav-link">サインイン</a>
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link href="/register">
+              <a className="nav-link">サインアップ</a>
             </Link>
           </NavItem>
         </Nav>
@@ -39,3 +56,5 @@ export default Layout;
 
 // const Layout = (props) => {}
 // <Container> {props.children}</Container>が示す意味は...
+
+// ml-auto margin left auto

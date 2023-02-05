@@ -32,7 +32,7 @@ const Layout = (props) => {
   );
 };
 
-export default layout;
+export default Layout;
 
 // <Nav className="navber navber-dark bg-dark"></Nav>
 // CSSフレームワーク側で用意されているタグを書けば実装出来る

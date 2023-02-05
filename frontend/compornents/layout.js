@@ -58,3 +58,13 @@ export default Layout;
 // <Container> {props.children}</Container>が示す意味は...
 
 // ml-auto margin left auto
+
+// <style jsx>
+// {`
+//  a {
+//      color: white;
+// }
+// `}
+// </style>
+
+// 上記のようにわざわざCSSモジュールを用意しなくてもこのHTMLの中にCSSスタイルをあてることが出来る
